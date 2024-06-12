@@ -56,5 +56,5 @@ Then, I wrote the updated string back to the file:
 
 This process ensures the allow list is updated to exclude IP addresses listed in the remove list.
 
-<h3>Summary</h3>
+<h2>Summary</h2>
 The algorithm I created automates the removal of IP addresses from the "allow_list.txt" file based on a separate remove list. It involves reading the file, converting its contents to a list, iterating through the remove list to delete specified IP addresses, and finally writing the updated list back to the file. This ensures that access to restricted content is managed efficiently and accurately.
