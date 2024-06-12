@@ -3,7 +3,7 @@
  <h2>Project Overview</h2>
  At my organization, access to restricted content is controlled through an IP allow list specified in the "allow_list.txt" file. We also maintain a remove list to identify IP addresses that should no longer have access. To automate the update process, I developed a Python algorithm to modify the "allow_list.txt" file by removing IP addresses listed in the remove list.
 
- <h2>Program walk-through:</h2>
+ <h2>Project walk-through:</h2>
  
  <h3>Opening the Allow List File</h3>
  The first step of the algorithm involves opening the "allow_list.txt" file. I assigned the filename to a variable, import_file, and used a with statement to open the file in read mode:
